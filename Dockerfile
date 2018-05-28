@@ -10,3 +10,4 @@ COPY service /etc/service/
 
 ENTRYPOINT ["/entrypoint"]
 CMD ["runsvdir", "/etc/service"]
+COPY entrypoint /
